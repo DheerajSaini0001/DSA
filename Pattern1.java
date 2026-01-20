@@ -8,17 +8,11 @@ int n =sc.nextInt();
         int i,j;
         for (i=0;i<n;i++)
         {
-            for(j=0;j<=i;j++){
+            for(j=n;j>i;j--){
                 System.err.print("*");
             }
             System.err.println();
         }
-         for (i=0;i<n;i++)
-        {
-            for(j=(n-1);j>i;j--){
-                System.err.print("*");
-            }
-            System.err.println();
-        }
+        
     }
 }
